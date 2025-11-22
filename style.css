@@ -1,0 +1,106 @@
+.jumbotron {
+  padding-top: 120px;
+  padding-bottom: 80px;
+  background-color: #444647;
+  text-align: left;
+  display: flex;
+  justify-content: flex-start;
+}
+.jumb left img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #fff;
+}
+
+.jumb-right h1 {
+  color: #f2b371;
+  margin: 0;
+}
+
+.jumb-right p {
+  color: #d2d2d2;
+  margin-top: 6px;
+  font-size: 18px;
+}
+
+#profile {
+  background-color: #434547;
+}
+
+section {
+  padding-top: 11rem;
+  padding-bottom: 5rem;
+}
+.putih {
+  color: #415779;
+}
+
+#about {
+  background-color: #a3aca7;
+}
+
+#contact {
+  background-color: #a3aca7;
+}
+
+.card-body p {
+  border-bottom: 1px solid #e0e6ef;
+  padding-bottom: 6px;
+  margin-bottom: 6px;
+}
+
+.card-body p:first-child {
+  border-bottom: none;
+  font-weight: bold;
+}
+
+body {
+  background: linear-gradient(to bottom, #e8fff1, #f3fff8);
+  color: #2e3a1b;
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2 {
+  color: #e4aa73;
+  font-weight: 700;
+  text-shadow: 0 2px 8px rgba(66, 70, 68, 0.2);
+}
+
+.card {
+  background: #6d5f5f;
+  border: 2px solid #a8e6c1;
+  border-radius: 14px;
+  box-shadow: 0 4px 10px rgba(30, 122, 71, 0.15), 0 0 0 0 transparent;
+  transition: 0.25s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 14px rgba(175, 204, 9, 0.25), 0 0 12px rgba(60, 190, 120, 0.35);
+  border-color: #6bdc97;
+}
+
+.card-body p:first-child {
+  font-weight: 700;
+  font-size: 18px;
+  color: #9fe0bd;
+  border-bottom: none !important;
+}
+
+.card-body p {
+  border-bottom: 1px solid #c7e9f2;
+  padding-bottom: 6px;
+  margin-bottom: 6px;
+  color: #1d223f;
+}
+
+.card-body p:last-child {
+  border-bottom: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
